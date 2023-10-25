@@ -4,6 +4,7 @@ const btnSumar = document.getElementById("btnSumar")
 const btnRestar = document.getElementById("btnRestar")
 const btnMultiplicar = document.getElementById("btnMultiplicar")
 const btnDividir = document.getElementById("btnDividir")
+const btnIntercambiar = document.getElementById("btnIntercambiar")
 
 btnSumar.addEventListener("click",()=>{
     let numero1 = document.getElementById("numero1Input").value
@@ -67,3 +68,10 @@ btnDividir.addEventListener("click",()=>{
     }
 })
 
+btnIntercambiar.addEventListener('click',()=>{
+    let numero1 = document.getElementById("numero1Input").value
+    let numero2 = document.getElementById("numero2Input").value
+    let auxiliar= numero1
+    document.getElementById("numero1Input").value=numero2
+    document.getElementById("numero2Input").value=auxiliar
+})

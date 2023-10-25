@@ -16,4 +16,11 @@ button{
 }
 main{
     margin: 0 5px;
+    flex-grow:1;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
