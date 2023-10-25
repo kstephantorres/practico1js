@@ -9,6 +9,7 @@ btnConcatenar.addEventListener('click',()=>{
         document.getElementById("nombreCompleto").value=nombreCompleto
         document.getElementById("nombreInput").value=null
         document.getElementById("apellidoInput").value=null
+        console.log(`Nombre completo: ${nombreCompleto}`)
     }
     else{
         alert("Falta llenar compo/s obligatorios")
