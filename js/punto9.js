@@ -1,4 +1,4 @@
-let frase = prompt("Escribe una frase:");
+let frase = prompt("9 - Escribe una frase:");
 
 let vocales = "";
 
@@ -11,4 +11,4 @@ for (let i = 0; i < frase.length; i++) {
     }
 }
 
-document.writeln(`Las vocales de tu frase son: ${vocales} <br>`);
+document.writeln(`Las vocales de tu frase son: ${vocales}. <br>`);

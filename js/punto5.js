@@ -1,3 +1,3 @@
-let numero1= parseInt(prompt("Ingrese un numero: "))
-let numero2= parseInt(prompt("Ingrese otro numero"))
-document.write(`Resultado: ${numero1+numero2} <br>`)
+let numeroSuma1= parseInt(prompt("5 - Ingrese un numero: "))
+let numeroSuma2= parseInt(prompt("5 - Ingrese otro numero"))
+document.write(`Resultado: ${numeroSuma1+numeroSuma2}. <br>`)

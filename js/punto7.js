@@ -1,15 +1,15 @@
-numeroA = parseFloat(prompt("Ingresa el primer número:"));
-numeroB = parseFloat(prompt("Ingresa el segundo número:"));
-let numeroC = parseFloat(prompt("Ingresa el tercer número:"));
+let numeroMayorA = parseFloat(prompt("7 - Ingresa el primer número:"));
+let numeroMayorB = parseFloat(prompt("7 - Ingresa el segundo número:"));
+let numeroMayorC = parseFloat(prompt("7 - Ingresa el tercer número:"));
 
-let mayor = numeroA;
+let mayor = numeroMayorA;
 
-if (numeroB > mayor) {
-    mayor = numeroB;
+if (numeroMayorB > mayor) {
+    mayor = numeroMayorB;
 }
 
-if (numeroC > mayor) {
-    mayor = numeroC;
+if (numeroMayorC > mayor) {
+    mayor = numeroMayorC;
 }
 
-document.write(`El ${mayor} es el número más grande.`);
+document.write(`El ${mayor} es el número más grande.<br>`);
