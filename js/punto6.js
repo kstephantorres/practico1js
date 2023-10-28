@@ -1,11 +1,11 @@
-let numero1 = parseInt(prompt("Ingrese un numero: "))
-let numero2 = parseInt(prompt("Ingrese otro numero: "))
+let numeroA = parseInt(prompt("Ingrese un numero: "))
+let numeroB = parseInt(prompt("Ingrese otro numero: "))
 
-if(numero1 > numero2)
+if(numeroA > numeroB)
 {
-    document.write(`El mayor es: ${numero1} <br>`)
-}else if(numero1 < numero2){
-    document.write(`El mayor es: ${numero2} <br>`)
+    document.write(`El mayor es: ${numeroA} <br>`)
+}else if(numeroA < numeroB){
+    document.write(`El mayor es: ${numeroB} <br>`)
 }else{
-    document.write(`Son iguales`)
+    document.write(`Son iguales <br>`)
 }
