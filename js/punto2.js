@@ -1,1 +1,1 @@
-document.write("Hello Word")
+document.write("Hello Word <br>")
