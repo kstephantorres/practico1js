@@ -3,9 +3,9 @@ let numeroB = parseInt(prompt("Ingrese otro numero: "))
 
 if(numeroA > numeroB)
 {
-    document.write(`El mayor es: ${numeroA} <br>`)
+    document.write(`El ${numeroA} es el  número mas grande<br>`)
 }else if(numeroA < numeroB){
-    document.write(`El mayor es: ${numeroB} <br>`)
+    document.write(`El ${numeroB} es el  número mas grande<br>`)
 }else{
     document.write(`Son iguales <br>`)
 }
