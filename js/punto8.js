@@ -1,3 +1,7 @@
-numero1 = parseInt(prompt("Ingrese un número para ver si es divisible por 2: "))
+let numeroPar = parseInt(prompt("Ingrese un número para ver si es divisible por 2: "))
 
-(numero1%2) ? document.write(`El ${numero1} no es par`) :  document.write(`El ${numero1} es par`)
+if (numeroPar % 2 === 0) {
+    document.write(`El ${numeroPar} es par <br>`);
+} else {
+    document.write(`El ${numeroPar} no es par <br>`);
+}
